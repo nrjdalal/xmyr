@@ -27,4 +27,4 @@ _ONLYSUDO_
 curl -fsSL $url/bin/main.sh >/usr/bin/$alias
 chmod +x /usr/bin/$alias
 
-echo "${green}$repository is successfully installed.${off}"
+echo "${GREEN}$repository is successfully installed.${off}"
