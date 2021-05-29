@@ -1,5 +1,3 @@
-echo "Got utils!"
-
 srcfile() {
   tempfile="$(mktemp -u).$alias"
   curl -fsSL $1 >$tempfile
